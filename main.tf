@@ -1,16 +1,10 @@
 provider "aws" {
   version = "~> 2.0"
   region  = "us-east-1"
-  access_key = "my-access-key"
-  secret_key = "my-secret-key"
+  access_key = "AKIARXUL5OARJSCZMUM3"
+  secret_key = "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"
 }
 
-
-provider "aws" {
-  alias   = "aws-east-2"
-  version = "~> 2.0"
-  region  = "us-east-2"
-}
 
 
 resource "aws_instance" "dev" {
